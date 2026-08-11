@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+}
+
+/* Leaflet marker icon fix handled via inline divIcon, no default icon assets needed. */
+
+.leaflet-container {
+  font-family: inherit;
+}
